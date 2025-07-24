@@ -30,6 +30,9 @@
    
    ![Power BI Dashboard](https://github.com/user-attachments/assets/0c5666a1-3364-4179-8f3f-c68bbb2c1209)
 
+## 📌 Project Objective
+
+This project demonstrates the data ingestion and database creation to exploratory data analysis and dashboarding. The goal is to analyze vendor sales data and generate business insights using Python, SQL, and Power BI.
 
 
 
