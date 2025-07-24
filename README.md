@@ -26,5 +26,10 @@
 5. **Power BI Dashboard**  
    Built a dashboard in Power BI using the `vendor_sales_summary` table from the `inventory` database.
 
+   Here is a preview of the final dashboard:
+   
+   ![Power BI Dashboard](https://github.com/user-attachments/assets/0c5666a1-3364-4179-8f3f-c68bbb2c1209)
+
+
 
 
