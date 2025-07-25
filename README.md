@@ -45,7 +45,8 @@ Efficient inventory and sales management are key to reducing losses from poor pr
 
 Here’s a snapshot of the interactive Power BI dashboard built from the `vendor_sales_summary` table:
 
-![Dashboard Screenshot](<img width="1281" height="721" alt="image" src="https://github.com/user-attachments/assets/ebcf09ad-b931-463b-a7c2-89ddabde0665" />)
+![Dashboard Screenshot](https://github.com/user-attachments/assets/ebcf09ad-b931-463b-a7c2-89ddabde0665)
+
 
 
 ---
