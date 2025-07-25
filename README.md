@@ -1,38 +1,88 @@
-# Vendor-Performance
-# Project Overview
+# Vendor Performance Analysis Project
 
-### Steps in making this project:
+## 📌 Overview
+This project analyzes vendor performance and inventory management to help retail and wholesale businesses boost profitability. Using Python, SQL Server, and Power BI, the analysis uncovers insights into vendor contributions, pricing efficiencies, inventory turnover, and profit margins. The aim is to guide smarter decisions in procurement, promotions, and stock control.
 
-1. **ingesting.py**  
-   Created a Python file named `ingesting.py` containing a class called `Database`.  
-   This class helps connect to the database, execute SQL queries, upload data, and make changes to the database.
+---
 
-2. **Data_ingesting.ipynb**  
-   Used the `Database` class from `ingesting.py` to:
-   - Create a new database named `inventory`
-   - Load all datasets from the `Dataset` folder into the `inventory` database
+## 🧠 Business Objective
+Efficient inventory and sales management are key to reducing losses from poor pricing, vendor dependency, and slow turnover. This project helps answer:
 
-3. **EDA_1.ipynb**  
-   Performed Exploratory Data Analysis (EDA) on the raw datasets.  
-   - Merged all files into a single DataFrame
-   - Cleaned and transformed the data into a meaningful format
-   - Uploaded the cleaned data back into the `inventory` database
+- Which vendors drive the most revenue and profit?
+- Are bulk purchases reducing unit costs effectively?
+- Where are inventory inefficiencies or unsold stock occurring?
+- Which high-margin brands are underperforming?
+- How concentrated is vendor dependency?
 
-4. **EDA_2.ipynb**  
-   Analyzed the cleaned `vendor_sales_summary` data:
-   - Created visualizations and charts
-   - Explored patterns and insights from individual columns
+---
 
-5. **Power BI Dashboard**  
-   Built a dashboard in Power BI using the `vendor_sales_summary` table from the `inventory` database.
+## 🛠 Tools & Technologies
+- **Python**: Data ingestion, preprocessing, EDA  
+- **SQL Server**: Database creation, data storage, SQL querying  
+- **SQLAlchemy & Pandas**: For ETL and data manipulation  
+- **Power BI**: Interactive dashboards and visual analysis  
 
-   Here is a preview of the final dashboard:
-   
-   ![Power BI Dashboard](https://github.com/user-attachments/assets/0c5666a1-3364-4179-8f3f-c68bbb2c1209)
+---
 
-## 📌 Project Objective
+## 🔁 Project Workflow
 
-This project demonstrates the data ingestion and database creation to exploratory data analysis and dashboarding. The goal is to analyze vendor sales data and generate business insights using Python, SQL, and Power BI.
+### 1. Data Ingestion
+- All raw CSVs are located in the `/Dataset` folder
+- `ingesting.py`: Contains a reusable `Database` class to connect and run SQL on SQL Server
+- `Data_ingesting.ipynb`: Loads and creates the `inventory` database and tables
+- Cleaned for duplicates, nulls, and incorrect datatypes
 
+### 2. Exploratory Data Analysis (EDA)
+- `EDA_1.ipynb`: Combined multiple datasets into a unified DataFrame and uploaded to SQL
+- `EDA_2.ipynb`: Focused on `vendor_sales_summary` table (10,692 rows × 18 columns)
+  - Distribution plots, correlations, outlier detection
+  - Inventory turnover, bulk pricing analysis, and vendor-level metrics
 
+### 3. Dashboard
+- Created a Power BI dashboard connected to the SQL Server
+- Visuals include vendor rankings, margin analysis, sales vs. purchase comparison, inventory holding
+
+---
+
+## 📈 Key Insights
+
+- **Bulk Pricing Works**: Large orders reduce unit cost by up to 72%
+- **Vendor Dependency**: Top 10 vendors = 66% of total purchases (supply chain risk)
+- **Unsold Inventory**: $2.7M of unsold stock found; one vendor holding $722K alone
+- **Hidden Potential**: High-margin brands with low sales are ideal for promotions
+- **Margin Trends**: Smaller vendors often have higher margins than volume-based giants
+
+---
+
+## 💡 Recommendations
+
+- Promote high-margin, low-sales brands
+- Reevaluate inventory strategies for low turnover items
+- Diversify suppliers to reduce reliance on top vendors
+- Use Power BI dashboard to monitor real-time vendor performance
+
+---
+
+## ▶️ How to Run
+
+1. Install Python + libraries: `pandas`, `sqlalchemy`, `numpy`
+2. Setup and configure Microsoft SQL Server
+3. Clone the repo and place all datasets in the `/Dataset` folder
+4. Run `Data_ingesting.ipynb` to create and load the database
+5. Explore analysis in EDA notebooks
+6. Open the Power BI `.pbix` file to explore dashboards
+
+---
+
+## 🧠 What This Project Demonstrates
+
+- ETL automation using Python and SQL
+- Data cleaning, transformation, and modeling
+- Strong analytical reasoning in business context
+- End-to-end workflow from raw data to insights and dashboard
+- Real-world problem solving using data
+
+---
+
+## 📁 Folder Structure
 
