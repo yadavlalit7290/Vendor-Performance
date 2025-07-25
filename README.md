@@ -33,7 +33,7 @@ Efficient inventory and sales management are key to reducing losses from poor pr
 - Cleaned for duplicates, nulls, and incorrect datatypes
 
 ### 2. Exploratory Data Analysis (EDA)
-- `EDA_1.ipynb`: Combined multiple datasets into a unified DataFrame and uploaded to SQL
+- `EDA_1.ipynb`: Combined multiple datasets into a unified DataFrame and uploaded to database
 - `EDA_2.ipynb`: Focused on `vendor_sales_summary` table (10,692 rows × 18 columns)
   - Distribution plots, correlations, outlier detection
   - Inventory turnover, bulk pricing analysis, and vendor-level metrics
