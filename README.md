@@ -89,7 +89,4 @@ Here’s a snapshot of the interactive Power BI dashboard built from the `vendor
 - End-to-end workflow from raw data to insights and dashboard
 - Real-world problem solving using data
 
----
-
-## 📁 Folder Structure
 
