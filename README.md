@@ -87,4 +87,8 @@ Here’s a snapshot of the interactive Power BI dashboard built from the `vendor
 - End-to-end workflow from raw data to insights and dashboard
 - Real-world problem solving using data
 
+## 🔗 Connect with Me
+
+📧 Email: [yadavlalit7290@gmail.com](mailto:yadavlalit7290@gmail.com)  
+💼 LinkedIn: [www.linkedin.com/in/lalit-yad7290](www.linkedin.com/in/lalit-yad7290)
 
