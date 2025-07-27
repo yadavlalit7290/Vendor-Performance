@@ -75,7 +75,7 @@ Here’s a snapshot of the interactive Power BI dashboard built from the `vendor
 3. Clone the repo and place all datasets in the `/Dataset` folder
 4. Run `Data_ingesting.ipynb` to create and load the database
 5. Explore analysis in EDA notebooks
-6. Open the Power BI `.pbix` file to explore dashboards
+6. Open the Power BI `.pbix` file to explore dashboard
 
 ---
 
@@ -90,5 +90,5 @@ Here’s a snapshot of the interactive Power BI dashboard built from the `vendor
 ## 🔗 Connect with Me
 
 📧 Email: [yadavlalit7290@gmail.com](mailto:yadavlalit7290@gmail.com)  
-💼 LinkedIn: [www.linkedin.com/in/lalit-yad7290](www.linkedin.com/in/lalit-yad7290)
+💼 LinkedIn: [linkedin.com/in/lalit-yad7290](https://www.linkedin.com/in/lalit-yad7290)
 
